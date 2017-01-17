@@ -1,0 +1,21 @@
+{
+  "name": "handlebars-mixins",
+  "version": "1.0.0",
+  "description": "Using handlebars custom helpers to create mixin effect",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "template-engine",
+    "handlebars"
+  ],
+  "author": "Akhil",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-handlebars": "latest"
+  }
+}
