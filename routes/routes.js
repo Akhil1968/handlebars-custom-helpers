@@ -15,7 +15,8 @@ exports.placeHandler = function(req, res){
 	           { tabulardata: [	{name: 'Delhi', url: 'State.Delhi'},
 								{name: 'Pune', url: 'State.Maharashtra'},
 								{name: 'Bangalore', url: 'State.Karnataka'}	],
-				title: "My Favourite Places"
+				title: "My Favourite Places",
+				layout: 'layout2' 
 			   }
 			);
 }//placeHandler

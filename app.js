@@ -7,6 +7,7 @@ app.use(express.static(__dirname + "/public"));
 
 //define helper BEGIN
 var hbs = exphbs.create({
+    defaultLayout:'layout1',
     helpers: {
         mytable: function(data) {
             var str = '<table class="table">';
@@ -23,10 +24,8 @@ var hbs = exphbs.create({
     }
 });
 //define helper END
-
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
-
 
 app.get('/', routes.techHandler);
 app.get('/place', routes.placeHandler);
